@@ -1,0 +1,16 @@
+// importo Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// importo variabili
+@import './variables.scss';
+
+// Reset
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: rgb(0, 0, 0);
+}
