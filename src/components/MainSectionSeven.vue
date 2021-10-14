@@ -21,7 +21,7 @@
              </div>
 
               <div>
-                 <h6 >What's next of the App Store</h6>
+                 <h6 >What's next of the App Store?</h6>
                     <h6 class="if secondText">What's to come next? Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Perspiciatis est nulla sequi ut ratione eos iste accusamus vero,
                         ipsum officiis aspernatur porro sint! Aut, aliquam quo. Quibusdam corporis quas quae!
@@ -87,7 +87,7 @@ export default {
 .blocText {
     padding-top: 20px;
     background: #191c23;
-    color: red;
+    color: #f9245b;
 }  
 
 .secondText {
