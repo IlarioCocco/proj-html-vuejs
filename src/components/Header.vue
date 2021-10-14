@@ -10,7 +10,7 @@
       
         <div class="bloccoTitolo">
             <div id="title">
-                <h5>Avada Freelance</h5>
+                <h5 class="text-uppercase">Avada Freelance</h5>
             </div> 
             <div id="title">
                 <h2>Art Director</h2>
@@ -71,7 +71,7 @@ export default {
     }
 
     h6 {
-        color: rgb(52, 52, 70);
+        color: rgb(64, 64, 78);
     }
 }
 
