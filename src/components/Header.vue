@@ -20,8 +20,6 @@
             </div> 
         </div>
 
-      
-
     </div>
         
 </div>
@@ -52,9 +50,8 @@ export default {
     
 
     .logo {
-    color: white;
     margin: 40px;
-    width: 100px;
+    width: 120px;
     }
     
 }

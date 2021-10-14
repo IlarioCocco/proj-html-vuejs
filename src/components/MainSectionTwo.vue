@@ -8,8 +8,13 @@
             </div>  
             <div id="title">
                 <h6 class="text-uppercase if ">web . brending .ux/ui</h6>
-            </div> 
-            <section class="line"></section>
+                
+            </div>
+            <div>
+                <span class="line"></span>
+            </div>
+            
+            
             <div id="title">
                 <h6 class="text-uppercase if why col-12">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Praesentium impedit quis unde, ratione ad totam non repellat, harum magni,
@@ -101,5 +106,7 @@ export default {
     padding-right: 30%;
     padding-top: 30px;
 }
+
+
 
 </style>
