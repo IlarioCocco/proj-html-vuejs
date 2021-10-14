@@ -26,30 +26,24 @@
 
       <div class="container-fluid sectionOneMain">
           <div class="container">
-              <div class="row">
+              <div class="row text-center">
               <div class="col-4 loremMainOne">
-                  <h6 class="if">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                      Sapiente unde quia cum placeat exercitationem molestias, 
-                      non, excepturi culpa magni molestiae nemo, nostrum delectus ullam. 
-                      Excepturi sed autem quasi eius porro!
-                  </h6>
+                  <div>
+                    <img src="../assets/img/logo_demo_1.png" alt="">
+                    <h6 class="text-uppercase if">web design</h6>
+                  </div>
               </div>
               <div class="col-4 loremMainOne">
-                  <h6 class="if">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                      Sapiente unde quia cum placeat exercitationem molestias, 
-                      non, excepturi culpa magni molestiae nemo, nostrum delectus ullam. 
-                      Excepturi sed autem quasi eius porro!
-                  </h6>
+                  <div>
+                    <img src="../assets/img/logo_demo_1.png" alt="">
+                    <h6 class="text-uppercase if">branding</h6>
+                  </div>
               </div>
               <div class="col-4 loremMainOne">
-                  <h6 class="if">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                      Sapiente unde quia cum placeat exercitationem molestias, 
-                      non, excepturi culpa magni molestiae nemo, nostrum delectus ullam. 
-                      Excepturi sed autem quasi eius porro!
-                  </h6>
+                  <div>
+                    <img src="../assets/img/logo_demo_1.png" alt="">
+                    <h6 class="text-uppercase if">ui 7 ux</h6>
+                  </div>
               </div>
           </div>
 
@@ -104,6 +98,11 @@ export default {
     padding-left: 30%;
     padding-right: 30%;
     padding-top: 30px;
+}
+
+.container {
+    width: 80%;
+    
 }
 
 
