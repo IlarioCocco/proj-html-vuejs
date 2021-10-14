@@ -25,25 +25,30 @@
       </div>
 
       <div class="container-fluid sectionOneMain">
-          <div class="container">
-              <div class="row text-center">
-              <div class="col-4 loremMainOne">
-                  <div>
-                    <img src="../assets/img/logo_demo_1.png" alt="">
-                    <h6 class="text-uppercase if">web design</h6>
+          <div class="container text-center">
+              <div class="row">
+              <div class="col-4 loremMainOne text-center">
+                  <div id="circle">
+                    <img class="icon" src="../assets/img/logo_demo_1.png" alt="">
                   </div>
+
+                  <h6 class="text-uppercase if">web design</h6>
               </div>
+
               <div class="col-4 loremMainOne">
-                  <div>
-                    <img src="../assets/img/logo_demo_1.png" alt="">
-                    <h6 class="text-uppercase if">branding</h6>
+                  <div id="circle">
+                    <img class="icon" src="../assets/img/logo_demo_1.png" alt="">
                   </div>
+
+                  <h6 class="text-uppercase if">branding</h6>
               </div>
+
               <div class="col-4 loremMainOne">
-                  <div>
-                    <img src="../assets/img/logo_demo_1.png" alt="">
-                    <h6 class="text-uppercase if">ui 7 ux</h6>
+                  <div id="circle">
+                    <img class="icon" src="../assets/img/logo_demo_1.png" alt="">
                   </div>
+                  
+                  <h6 class="text-uppercase if">ui 7 ux</h6>
               </div>
           </div>
 
@@ -69,6 +74,13 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
+
+#circle {
+    background: rgba(255, 0, 0, 0);
+    border-radius: 50%;
+    border: 8px solid  #f9245b;
+    position: relative;
+}
 
 .sectionOneMain {
     background-color: #16181f;
@@ -101,8 +113,11 @@ export default {
 }
 
 .container {
-    width: 80%;
-    
+    width: 65%;
+}
+
+.icon {
+    padding: 50px;
 }
 
 
