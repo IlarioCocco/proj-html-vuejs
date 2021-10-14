@@ -32,7 +32,7 @@
                     <div id="circle">
                         <img class="icon" src="../assets/img/logo_demo_1.png" alt="">
                         <div>
-                            <h6 class="text-uppercase if brand">branding</h6>
+                            <h6 class="text-uppercase if brand">web design</h6>
                         </div>
                     </div>
                 </div>
