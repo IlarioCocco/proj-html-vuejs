@@ -10,7 +10,6 @@
                 <h6 class="text-uppercase if">ui & ux expert</h6>
                 <section class="line"></section>
             </div> 
-           
         </div>
       </div>
 
@@ -84,7 +83,7 @@ export default {
 
 .bloccoTitolo {
     text-align: center;
-    padding-top: 100px;
+    padding-top: 90px;
     color: white
 }
 
