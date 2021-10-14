@@ -4,47 +4,43 @@
       <div class="sectionOneMain">
         <div class="bloccoTitolo">
             <div id="title">
-                <h2>About Me</h2>
+                <h2>Why Work With Me</h2>
             </div>  
-            <div id="title ">
-                <h6 class="text-uppercase if">ui & ux expert</h6>
-                <section class="line"></section>
+            <div id="title">
+                <h6 class="text-uppercase if ">web . brending .ux/ui</h6>
             </div> 
-           
+            <section class="line"></section>
+            <div id="title">
+                <h6 class="text-uppercase if why col-12">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Praesentium impedit quis unde, ratione ad totam non repellat, harum magni,
+                    dolorem dicta accusamus ab at quia nesciunt ipsam aliquid? Labore, minus.
+                    Praesentium impedit quis unde
+                </h6>
+            </div> 
         </div>
       </div>
 
       <div class="container-fluid sectionOneMain">
           <div class="container">
               <div class="row">
-              <div class="col-6 loremMainOne">
+              <div class="col-4 loremMainOne">
                   <h6 class="if">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                      Sapiente unde quia cum placeat exercitationem molestias, 
-                      non, excepturi culpa magni molestiae nemo, nostrum delectus ullam. 
-                      Excepturi sed autem quasi eius porro!
-                      <h6></h6>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                      Sapiente unde quia cum placeat exercitationem molestias, 
-                      non, excepturi culpa magni molestiae nemo, nostrum delectus ullam. 
-                      Excepturi sed autem quasi eius porro!
                       Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                       Sapiente unde quia cum placeat exercitationem molestias, 
                       non, excepturi culpa magni molestiae nemo, nostrum delectus ullam. 
                       Excepturi sed autem quasi eius porro!
                   </h6>
               </div>
-              <div class="col-6 loremMainOne">
+              <div class="col-4 loremMainOne">
                   <h6 class="if">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                       Sapiente unde quia cum placeat exercitationem molestias, 
                       non, excepturi culpa magni molestiae nemo, nostrum delectus ullam. 
                       Excepturi sed autem quasi eius porro!
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                      Sapiente unde quia cum placeat exercitationem molestias, 
-                      non, excepturi culpa magni molestiae nemo, nostrum delectus ullam. 
-                      Excepturi sed autem quasi eius porro!
-                      <h6></h6>
+                  </h6>
+              </div>
+              <div class="col-4 loremMainOne">
+                  <h6 class="if">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                       Sapiente unde quia cum placeat exercitationem molestias, 
                       non, excepturi culpa magni molestiae nemo, nostrum delectus ullam. 
@@ -64,7 +60,7 @@
 
 <script>
 export default {
-  name: 'Main',
+  name: 'MainSectionTwo',
   props: {
    
   }
@@ -77,14 +73,14 @@ export default {
 <style scoped lang="scss">
 
 .sectionOneMain {
-    background-color: #20232c;
+    background-color: #16181f;
     color: white;
-    
 }
 
 .bloccoTitolo {
     text-align: center;
-    padding-top: 100px;
+    padding-top: 80px;
+    padding-bottom: 10px;
     color: white
 }
 
@@ -100,7 +96,10 @@ export default {
     padding: 15px;
 }
 
-
-
+.why {
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-top: 30px;
+}
 
 </style>
