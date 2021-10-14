@@ -4,7 +4,7 @@
     <!-- <Hero :bgImage="require('./assets/img/banner_images.jpg')" title="ciao"/> -->
     <Main/>
     <MainSectionTwo/>
-    <MainSectionTree/>
+    <MainSectionThree/>
     <MainSectionFour/>
     <MainSectionFive/>
     <MainSectionSix/>
@@ -18,7 +18,7 @@
 import Header from './components/Header.vue';
 import Main from './components/Main.vue';
 import MainSectionTwo from './components/MainSectionTwo.vue';
-import MainSectionTree from './components/MainSectionTree.vue';
+import MainSectionThree from './components/MainSectionThree.vue';
 import MainSectionFour from './components/MainSectionFour.vue';
 import MainSectionFive from './components/MainSectionFive.vue';
 import MainSectionSix from './components/MainSectionSix.vue';
@@ -34,7 +34,7 @@ export default {
     Header,
     Main,
     MainSectionTwo,
-    MainSectionTree,
+    MainSectionThree,
     MainSectionFour,
     MainSectionFive,
     MainSectionSix,
