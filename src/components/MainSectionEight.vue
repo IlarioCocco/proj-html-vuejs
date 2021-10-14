@@ -1,16 +1,17 @@
 <template>
   <div class="Main">
-
       <div class="sectionOneMain">
         <div class="bloccoTitolo">
-
+            
             <div id="title">
                 <h2>Let's Work Together</h2>
             </div>  
             <div id="title">
                 <h6 class="text-uppercase if ">tell me more about your project</h6>
             </div> 
-            <section class="line dark"></section>
+            <div>
+                 <section class="line dark"></section>
+            </div>
             <div id="title">
                 <h6 class="text-uppercase if why col-12">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Praesentium impedit quis unde, ratione ad totam non repellat, harum magni.
@@ -18,13 +19,14 @@
             </div>
 
             <div class="blocInput">
-                 <div>
+                <div>
                     <input class="input" type="text" placeholder="  NAME*"> 
                 </div>
+
                 <div>
                     <input class="input" type="text" placeholder="  EMAIL*"> 
-
                 </div>
+
                 <div>
                     <input class="input" type="text" placeholder="  PHONE"> 
 
@@ -33,11 +35,8 @@
                     <input class="input danger" type="text" placeholder="LET'S TALK"> 
                 </div>
             </div>
-               
-            
         </div>
       </div>
-   
   </div>
 </template>
 
@@ -64,7 +63,6 @@ export default {
 .bloccoTitolo {
     text-align: center;
     padding-top: 80px;
-    padding-bottom: 10px;
     color: rgb(0, 0, 0)
 }
 
@@ -87,12 +85,12 @@ export default {
 }
 
 .dark {
-    background: black;
+    background: rgb(149, 177, 186);
 }
 
 .blocInput {
     padding-top: 10px;
-    padding-bottom: 60px;
+    padding-bottom: 80px;
 }
 
 

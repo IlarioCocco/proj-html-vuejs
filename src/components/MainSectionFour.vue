@@ -4,21 +4,21 @@
     <div class="mainSectionFour d-flex">
       <div class="sectionOneImgLeft">
       </div>
-       <div class="sectionOneImgRight">
+      <div class="sectionOneImgRight">
       </div>
     </div>
 
     <div class="sectionImgTwo d-flex">
       <div class="sectionTwoImgLeft">
       </div>
-       <div class="sectionTwoImgRight">
+      <div class="sectionTwoImgRight">
       </div>
     </div>
 
      <div class="sectionImgTree d-flex">
       <div class="sectionTreeImgLeft">
       </div>
-       <div class="sectionTreeImgRight">
+      <div class="sectionTreeImgRight">
       </div>
     </div>
 

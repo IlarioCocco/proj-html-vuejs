@@ -8,7 +8,9 @@
             </div>  
             <div id="title">
                 <h6 class="text-uppercase if ">trnding design news</h6>
-                <section class="line"></section>
+                <div>
+                    <span class="line"></span>
+                </div>
             </div> 
             
         </div>

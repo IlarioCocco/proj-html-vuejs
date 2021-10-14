@@ -9,7 +9,9 @@
             <div id="title">
                 <h6 class="text-uppercase if ">web - brending - ux / ui</h6>
             </div> 
-            <section class="line"></section>
+              <div>
+                <span class="line"></span>
+            </div>
         </div>
       </div>
 
