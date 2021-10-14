@@ -27,35 +27,38 @@
       <div class="container-fluid sectionOneMain">
           <div class="container text-center">
               <div class="row">
-              <div class="col-4 loremMainOne text-center">
-                  <div id="circle">
-                    <img class="icon" src="../assets/img/logo_demo_1.png" alt="">
-                  </div>
 
-                  <h6 class="text-uppercase if">web design</h6>
-              </div>
+                <div class="col-4 loremMainOne">
+                    <div id="circle">
+                        <img class="icon" src="../assets/img/logo_demo_1.png" alt="">
+                        <div>
+                            <h6 class="text-uppercase if brand">branding</h6>
+                        </div>
+                    </div>
+                </div>
 
-              <div class="col-4 loremMainOne">
-                  <div id="circle">
-                    <img class="icon" src="../assets/img/logo_demo_1.png" alt="">
-                  </div>
+                <div class="col-4 loremMainOne">
+                    <div id="circle">
+                        <img class="icon" src="../assets/img/logo_demo_1.png" alt="">
+                        <div>
+                            <h6 class="text-uppercase if brand">branding</h6>
+                        </div>
+                    </div>
+                    
+                </div>
 
-                  <h6 class="text-uppercase if">branding</h6>
-              </div>
+                <div class="col-4 loremMainOne">
+                    <div id="circle">
+                        <img class="icon" src="../assets/img/logo_demo_1.png" alt="">
+                        <div>
+                            <h6 class="text-uppercase if brand">ui 7 ux</h6>
+                        </div>
+                    </div>
+                </div>
 
-              <div class="col-4 loremMainOne">
-                  <div id="circle">
-                    <img class="icon" src="../assets/img/logo_demo_1.png" alt="">
-                  </div>
-                  
-                  <h6 class="text-uppercase if">ui 7 ux</h6>
               </div>
           </div>
-
-          </div>
-          
       </div>
-   
   </div>
 </template>
 
@@ -76,10 +79,11 @@ export default {
 <style scoped lang="scss">
 
 #circle {
+    width: 200px;
+    height: 200px;
     background: rgba(255, 0, 0, 0);
     border-radius: 50%;
     border: 8px solid  #f9245b;
-    position: relative;
 }
 
 .sectionOneMain {
@@ -96,7 +100,7 @@ export default {
 
 .loremMainOne {
     padding: 40px;
-    padding-bottom: 60px;
+    padding-bottom: 100px;
 }
 
 .if {
@@ -114,10 +118,18 @@ export default {
 
 .container {
     width: 65%;
+    display: flex;
+    justify-content: center
+    
+}
+
+.brand {
+    padding-top: 100px;
+    font-size: 20px;
 }
 
 .icon {
-    padding: 50px;
+    padding-top: 50px;
 }
 
 
