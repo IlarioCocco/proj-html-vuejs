@@ -6,8 +6,7 @@
     </div>
 
     <div class="boxFooter d-flex justify-content-center">
-      <h6 class="if">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-        amet consectetur adipisicing elit.
+      <h6 class="if fw-lighter">Copyright 2012 - 2021 | Avada Theme by <span class="fw-bold light">Theme Fusion</span>  |  All Rights Reserved  |  Powered by <span  class="fw-bold light">WordPress</span> 
       </h6>
     </div>
 
@@ -55,8 +54,16 @@ export default {
 .boxFooterIcon {
   padding-top: 10px;
   background: #191c23;
-  color: white;
   padding-bottom: 50px;
 }
+
+.if {
+  color: rgb(123, 136, 157)
+}
+
+.light {
+  color: white;
+}
+
 
 </style>
