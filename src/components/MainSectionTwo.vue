@@ -13,7 +13,6 @@
                 <span class="line"></span>
             </div>
             
-            
             <div id="title">
                 <h6 class="text-uppercase if why col-12">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Praesentium impedit quis unde, ratione ad totam non repellat, harum magni,
@@ -32,7 +31,7 @@
                     <div id="circle">
                         <img class="icon" src="../assets/img/logo_demo_1.png" alt="">
                         <div>
-                            <h6 class="text-uppercase if brand">web design</h6>
+                            <h6 class="text-uppercase brand">web design</h6>
                         </div>
                     </div>
                 </div>
@@ -41,7 +40,7 @@
                     <div id="circle">
                         <img class="icon" src="../assets/img/logo_demo_1.png" alt="">
                         <div>
-                            <h6 class="text-uppercase if brand">branding</h6>
+                            <h6 class="text-uppercase brand">branding</h6>
                         </div>
                     </div>
                     
@@ -51,7 +50,7 @@
                     <div id="circle">
                         <img class="icon" src="../assets/img/logo_demo_1.png" alt="">
                         <div>
-                            <h6 class="text-uppercase if brand">ui 7 ux</h6>
+                            <h6 class="text-uppercase brand">ui 7 ux</h6>
                         </div>
                     </div>
                 </div>
@@ -59,6 +58,7 @@
               </div>
           </div>
       </div>
+      
   </div>
 </template>
 
@@ -108,7 +108,6 @@ export default {
     font-size: 10px;
     color: #6e89a0;
     line-height: 20px;
-    padding: 15px;
 }
 
 .why {
@@ -126,7 +125,7 @@ export default {
 
 .brand {
     padding-top: 100px;
-    font-size: 20px;
+    font-size: 10px;
 }
 
 .icon {

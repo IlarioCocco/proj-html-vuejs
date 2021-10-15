@@ -76,7 +76,6 @@ export default {
     font-size: 10px;
     color: #6e89a0;
     line-height: 20px;
-    padding: 15px;
 }
 
 .why {
