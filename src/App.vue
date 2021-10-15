@@ -16,7 +16,6 @@
 
 
 
-
 <script>
 // importazione 
 import Header from './components/Header.vue';
