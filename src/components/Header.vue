@@ -10,7 +10,7 @@
       
         <div class="bloccoTitolo">
             <div id="title">
-                <h5 class="text-uppercase">Avada Freelance</h5>
+                <h5 class="text-uppercase">{{title}}</h5>
             </div> 
             <div id="title">
                 <h2>Art Director</h2>
@@ -31,10 +31,11 @@
 
 export default {
   name: 'Header',
-  props: {
-
-  }
+  props: [
+      'title'
+    ]
 }
+
 </script>
 
 

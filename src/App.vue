@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Header/>
+    <Header title="avada freelance"/>
     <!-- <Hero :bgImage="require('./assets/img/banner_images.jpg')" title="ciao"/> -->
     <Main/>
     <MainSectionTwo/>
@@ -13,6 +13,9 @@
     <Footer/>
   </div>
 </template>
+
+
+
 
 <script>
 import Header from './components/Header.vue';
@@ -44,6 +47,9 @@ export default {
   }
 }
 </script>
+
+
+
 
 <style lang="scss">
 @import "./assets/scss/common.scss";
