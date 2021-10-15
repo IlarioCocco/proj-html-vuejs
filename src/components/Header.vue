@@ -1,8 +1,7 @@
 <template>
 <div>
 
-    <div id="Header">
-
+    <div id="Header" :style="`background-image: url(${bgImage})`">
         <div class="d-flex justify-content-between">
             <img class="logo" src="../assets/img/av-freelance-logo-retina.png" alt="">
             <img class="logo" src="../assets/img/av-freelance-logo-retina.png" alt="">
@@ -32,7 +31,8 @@
 export default {
   name: 'Header',
   props: [
-      'title'
+      'title',
+      'bgImage'
     ]
 }
 
@@ -43,7 +43,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 #Header {
-    background-image: url('../assets/img/banner_images.jpg');
+    // background-image: url('../assets/img/banner_images.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: repeat;

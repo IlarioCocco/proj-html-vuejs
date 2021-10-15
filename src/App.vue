@@ -1,7 +1,7 @@
 <template>
+<!-- Utilizzazione -->
   <div id="app">
-    <Header title="Art Director"/>
-    <!-- <Hero :bgImage="require('./assets/img/banner_images.jpg')" title="ciao"/> -->
+    <Header :bgImage="require('./assets/img/banner_images.jpg')" title="Art Director"/>
     <Main/>
     <MainSectionTwo/>
     <MainSectionThree/>
@@ -18,6 +18,7 @@
 
 
 <script>
+// importazione 
 import Header from './components/Header.vue';
 import Main from './components/Main.vue';
 import MainSectionTwo from './components/MainSectionTwo.vue';
@@ -31,6 +32,7 @@ import Footer from './components/Footer.vue';
 
 
 
+// registrazione 
 export default {
   name: 'App',
   components: {
