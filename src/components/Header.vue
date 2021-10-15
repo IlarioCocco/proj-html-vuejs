@@ -10,10 +10,10 @@
       
         <div class="bloccoTitolo">
             <div id="title">
-                <h5 class="text-uppercase">{{title}}</h5>
+                <h5 class="text-uppercase">avada freelance</h5>
             </div> 
             <div id="title">
-                <h2>Art Director</h2>
+                <h2>{{title}}</h2>
             </div>  
             <div id="title">
                 <h6 class="text-uppercase if">if it doesn't challenge you, it doesn't change you</h6>

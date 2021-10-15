@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Header title="avada freelance"/>
+    <Header title="Art Director"/>
     <!-- <Hero :bgImage="require('./assets/img/banner_images.jpg')" title="ciao"/> -->
     <Main/>
     <MainSectionTwo/>
