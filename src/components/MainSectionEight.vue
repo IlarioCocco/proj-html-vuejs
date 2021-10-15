@@ -4,7 +4,7 @@
         <div class="bloccoTitolo">
             
             <div id="title">
-                <h2>Let's Work Together</h2>
+                <h2>{{title}}</h2>
             </div>  
             <div id="title">
                 <h6 class="text-uppercase if ">tell me more about your project</h6>
@@ -45,10 +45,11 @@
 <script>
 export default {
   name: 'MainSectionTwo',
-  props: {
-   
-  }
+    props: [
+        'title'
+    ]
 }
+
 </script>
 
 

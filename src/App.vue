@@ -2,14 +2,14 @@
 <!-- Utilizzazione -->
   <div id="app">
     <Header :bgImage="require('./assets/img/banner_images.jpg')" title="Art Director"/>
-    <Main/>
-    <MainSectionTwo/>
-    <MainSectionThree/>
+    <Main title="About Me"/>
+    <MainSectionTwo title="Why Work With Me"/>
+    <MainSectionThree title="Recent Work"/>
     <MainSectionFour/>
-    <MainSectionFive/>
-    <MainSectionSix/>
+    <MainSectionFive :bgImage="require('./assets/img/testimonial_bkgd.jpg')" title="trusted by global brands" />
+    <MainSectionSix title="Expert Design Advice"/>
     <MainSectionSeven/>
-    <MainSectionEight/>
+    <MainSectionEight title="Let's Work Together"/>
     <Footer/>
   </div>
 </template>

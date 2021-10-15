@@ -4,7 +4,7 @@
       <div class="sectionOneMain">
         <div class="bloccoTitolo">
             <div id="title">
-                <h2>Why Work With Me</h2>
+                <h2>{{title}}</h2>
             </div>  
             <div id="title">
                 <h6 class="text-uppercase if ">web . brending .ux/ui</h6>
@@ -67,10 +67,11 @@
 <script>
 export default {
   name: 'MainSectionTwo',
-  props: {
-   
-  }
+    props: [
+        'title'
+        ]
 }
+
 </script>
 
 

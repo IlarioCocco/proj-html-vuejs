@@ -4,10 +4,10 @@
       <div class="sectionOneMain">
         <div class="bloccoTitolo">
             <div id="title">
-                <h2>Expert Design Advice</h2>
+                <h2>{{title}}</h2>
             </div>  
             <div id="title">
-                <h6 class="text-uppercase if ">trnding design news</h6>
+                <h6 class="text-uppercase if ">trending design news</h6>
                 <div>
                     <span class="line"></span>
                 </div>
@@ -23,10 +23,11 @@
 <script>
 export default {
   name: 'MainSectionSix',
-  props: {
-   
-  }
+    props: [
+        'title'
+    ]
 }
+
 </script>
 
 

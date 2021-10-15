@@ -30,9 +30,9 @@
 
 export default {
   name: 'Header',
-  props: [
-      'title',
-      'bgImage'
+    props: [
+        'title',
+        'bgImage'
     ]
 }
 

@@ -1,12 +1,13 @@
 <template>
-  <div class="mainSectionFive container-fluid">
+  <div class="mainSectionFive container-fluid"
+  :style="`background-image: url(${bgImage})`">
       <div class="logoApici">
           <img class="logoApici" src="../assets/img/quotes-1.png" alt="">
           <h6 class="if fst-italic">"That's been one of my mantras - focus and simplicity. Simple can be harder than complex;
               you have to work hard to get your <br>
               thinking clean make it simple."</h6>
           <h6>STEVE JOBS - APPLE</h6>
-          <h6 class="text-uppercase trusted">trusted by global brands</h6>
+          <h6 class="text-uppercase trusted">{{title}}</h6>
       </div>
 
       <div class="container">
@@ -38,9 +39,10 @@
 <script>
 export default {
   name: 'MainSectionFive',
-  props: {
-    msg: String
-  }
+    props: [
+        'bgImage',
+        'title'
+        ]
 }
 </script>
 
@@ -48,7 +50,7 @@ export default {
 <style scoped lang="scss">
 
 .mainSectionFive {
-    background-image: url('../assets/img/testimonial_bkgd.jpg');
+    // background-image: url('../assets/img/testimonial_bkgd.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: repeat;
